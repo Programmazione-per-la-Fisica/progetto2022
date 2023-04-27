@@ -2,12 +2,12 @@
 
 ## Descrizione del sistema
 
-La geometria del sistema considerato e' mostrato in figura
+La geometria del sistema considerato è mostrato in figura
 
 ![biliardo triangolare](biliardo.svg)
 
-Il sistema è delimitato da due segmenti rettilinei, dati dai punti $[(0, r_1),
-(\ell, r_2)]$ e $[(0, -r_1), (\ell, -r_2)]$ rispettivamente.
+Il sistema è delimitato da due segmenti rettilinei, dati dai punti
+$[(0, r_1), (\ell, r_2)]$ e $[(0, -r_1), (\ell, -r_2)]$ rispettivamente.
 
 Una particella puntiforme parte da $(0, y_0)$, $y_0 \in [-r_1, r_1]$, con un
 angolo $\theta_0$ e interagisce nel punto $(x_\mathrm{i}, y_\mathrm{i})$ con uno
@@ -28,7 +28,7 @@ dove $\mp$ si riferisce al segmento superiore o inferiore rispettivamente.
 
 Progettare e sviluppare un codice che calcoli la traiettoria di una particella
 all'interno del sistema sopradescritto, con coordinate iniziali, cioè in $x =
-0$, date da $(y_0, \theta_0)$ , e determini le coordinate finali, cioe' in
+0$, date da $(y_0, \theta_0)$ , e determini le coordinate finali, cioè in
 $x=\ell$, date da $(y_\mathrm{f}, \theta_\mathrm{f})$.
 
 Supponendo che le condizioni iniziali siano caratterizzate da due distribuzioni
