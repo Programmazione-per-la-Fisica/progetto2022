@@ -14,8 +14,8 @@ angolo $\theta_0$ e interagisce nel punto $(x_\mathrm{i}, y_\mathrm{i})$ con uno
 dei due segmenti di delimitazione, in questo caso quello superiore.
 L'interazione consiste in una riflessione, per cui 
 $\theta_\mathrm{i} = \theta_\mathrm{r}$, dove $\theta_\mathrm{i}$ e $\theta_\mathrm{r}$
-rappresentano rispettivamente gli angoli incidente e riflettente. Si noti 
-come la direzione normale al segmento non dipende dalle coordinate del punto 
+rappresentano rispettivamente gli angoli incidente e riflettente. Si noti
+come la direzione normale al segmento non dipende dalle coordinate del punto
 incidente $(x_\mathrm{i}, y_\mathrm{i})$ ed è data da
 
 $$
@@ -32,7 +32,7 @@ date da $(y_0, \theta_0)$ , e determini le coordinate finali, cioè in
 $x=\ell$, date da $(y_\mathrm{f}, \theta_\mathrm{f})$.
 
 Supponendo che le condizioni iniziali siano caratterizzate da due distribuzioni
-Gaussiane indipendenti, rispettivamente con parametri $(\mu_{y_0}, \sigma_{y_0})$ 
+Gaussiane indipendenti, rispettivamente con parametri $(\mu_{y_0}, \sigma_{y_0})$
 e $(\mu_{\theta_0}, \sigma_{\theta_0})$, determinare le
 distribuzioni di $y_\mathrm{f}$ e $\theta_\mathrm{f}$ e studiare come variano al
 variare di $\ell$, mantenendo costanti $r_1$ e $r_2$.
