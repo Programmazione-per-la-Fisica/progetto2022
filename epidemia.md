@@ -29,11 +29,11 @@ l'andamento reale di un'epidemia.
 
 Il modello si basa su tre equazioni differenziali
 
-$$
-\frac{dS}{dt} = -\beta \frac{S}{N} I \\[3mm]
-\frac{dI}{dt} = \beta \frac{S}{N} I - \gamma I \\[3mm]
-\frac{dR}{dt} = \gamma I
-$$
+$$\begin{align*}
+\frac{dS}{dt} &= -\beta \frac{S}{N} I\\
+\frac{dI}{dt} &= \beta \frac{S}{N} I - \gamma I\\
+\frac{dR}{dt} &= \gamma I
+\end{align*}$$
 
 da cui si ricava che $S + I + R = N$, con $N$ costante, il numero
 totale di persone nella popolazione.
@@ -59,18 +59,18 @@ l'epidemia partirà se $R_0 = \beta / \gamma > 1$
 Discretizzando le equazioni differenziali citate sopra e considerando
 $\Delta T = 1$, abbiamo
 
-$$
-S_i = S_{i-1} - \beta \frac{S_{i-1}}{N} I_{i-1} \\[3mm]
-I_i = I_{i-1} + \beta \frac{S_{i-1}}{N} I_{i-1} - \gamma I_{i-1} \\[3mm]
-R_i = R_{i-1} + \gamma I_{i-1}
-$$
+$$\begin{align*}
+S_i &= S_{i-1} - \beta \frac{S_{i-1}}{N} I_{i-1}\\
+I_i &= I_{i-1} + \beta \frac{S_{i-1}}{N} I_{i-1} - \gamma I_{i-1}\\
+R_i &= R_{i-1} + \gamma I_{i-1}
+\end{align*}$$
 
 Ad ogni iterazione devono valere i vincoli
 
-$$
-S + I + R = N \\[3mm]
-S, I, R \in \N
-$$
+$$\begin{align*}
+S + I + R &= N\\
+S, I, R &\in \Bbb N
+\end{align*}$$
 
 ## Parte I: implementazione del modello SIR
 
