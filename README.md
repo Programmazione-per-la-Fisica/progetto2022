@@ -52,7 +52,8 @@ equivalente). Il file di configurazione del tool di formattazione (ad es.
 `.clang-format`) deve essere consegnato insieme al progetto.
 
 Nomi di file, funzioni, tipi, variabili, ecc. devono essere descrittivi e
-seguire convenzioni ortografiche e di lingua uniformi.
+seguire convenzioni ortografiche e di lingua uniformi. Tutte le entità del programma
+(tipi, funzioni, ecc.) devono essere dichiarate dentro un namespace.
 
 I nomi di file e directory non devono contenere spazi ed è preferibile che siano
 in carattere minuscolo.
