@@ -2,10 +2,11 @@
 % per ottenere biliardo.svg:
 % $ pdflatex biliardo.tex && pdf2svg biliardo.pdf biliardo.svg
 \documentclass[tikz]{standalone}
+\usetikzlibrary{backgrounds}
 
 \begin{document}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[background rectangle/.style={fill=white}, show background rectangle]
 
   \draw[thick, <->] (11,0) -- (0,0) -- (0, 4);
   \draw[thick] (0,0) -- (0, -3);
@@ -31,4 +32,3 @@
 \end{tikzpicture}
 
 \end{document}
-
