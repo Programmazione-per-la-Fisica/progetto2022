@@ -37,7 +37,7 @@ vicinanza tra boids può essere determinata in base alla loro posizione. Dato un
 boid $b_i$, i suoi vicini sono tutti i boids $b_j$ per cui:
 
 ```math
-\left|\vec{x}_{b_i}-\vec{x}_{b_j}\right|\lt {d}
+\left| \vec{x}_{b_i}-\vec{x}_{b_j}\right| \lt {d}
 ```
 
 ## Le regole di volo
@@ -60,7 +60,7 @@ dall'applicazione delle tre regole.
 La regola ha lo scopo di evitare che i boids collidano tra di loro.
 
 ```math
-\vec{v}_1 = -s\sum_{j\ne i}(\vec{x}_{b_j}-\vec{x}_{b_i})\quad \text{se}\quad \left|\vec{x}_{b_i}-\vec{x}_{b_j}\right|\lt {d}d_s$$
+\vec{v}_1 = -s\sum_{j\ne i}(\vec{x}_{b_j}-\vec{x}_{b_i})\quad \text{se}\quad \left| \vec{x}_{b_i}-\vec{x}_{b_j}\right| \lt {d}_s$$
 ```
 
 Usando la distanza come fattore per determinare la nuova velocità permette di
